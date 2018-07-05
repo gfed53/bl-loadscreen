@@ -1,0 +1,41 @@
+/* GIF */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: rgb(255, 207, 207);
+}
+
+.container {
+  margin: 3em;
+  margin-top: 25vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bl-gif {
+  /* min-width: 20em;
+  max-width: 35em; */
+  width: 25em;
+  height: auto;
+  /* min-height: 5em;
+  max-height: 30em; */
+}
+
+h1 {
+  padding-top: 1em;
+  /* font-family: 'Shrikhand', cursive; */
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+/* @media screen and (min-width: 768px){
+  .bl-gif {
+    width: 35em;
+  }
+} */
+
