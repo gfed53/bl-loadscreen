@@ -1,11 +1,28 @@
-/* GIF */
+/* KEYFRAMES */
+
+@keyframes zoom {
+  0% {
+    transform: scale(0.75);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    /* transform: scale(2.5); */
+    transform: scale(0.75);
+  }
+}
+
+
 
 html, body {
   height: 100%;
 }
 
 body {
-  background: rgb(255, 207, 207);
+  background: #ECECEC;
 }
 
 .container {
@@ -17,6 +34,7 @@ body {
   align-items: center;
 }
 
+/* GIF */
 .bl-gif {
   /* min-width: 20em;
   max-width: 35em; */
@@ -24,13 +42,19 @@ body {
   height: auto;
   /* min-height: 5em;
   max-height: 30em; */
+  z-index: 99;
+  border-radius: 4px;
 }
 
 h1 {
-  padding-top: 1em;
+  position: relative;
+  padding-top: 0.5em;
   /* font-family: 'Shrikhand', cursive; */
   font-family: 'Playfair Display', serif;
   font-weight: 700;
+
+  transition: 250ms ease-in-out all;
+  animation: zoom 1.25s infinite;
 }
 
 /* @media screen and (min-width: 768px){
@@ -38,4 +62,6 @@ h1 {
     width: 35em;
   }
 } */
+
+
 
