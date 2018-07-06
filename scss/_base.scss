@@ -1,3 +1,5 @@
+@import 'gif';
+
 /* KEYFRAMES */
 
 @keyframes zoom {
@@ -31,18 +33,6 @@ body {
   align-items: center;
 }
 
-/* GIF */
-.bl-gif {
-  /* min-width: 20em;
-  max-width: 35em; */
-  width: 25em;
-  height: auto;
-  /* min-height: 5em;
-  max-height: 30em; */
-  z-index: 99;
-  border-radius: 4px;
-}
-
 h1 {
   position: relative;
   padding-top: 0.5em;
@@ -57,26 +47,6 @@ h1 {
     animation: zoom 1.25s infinite;
   }
 }
-
-// @each span in h1 
-/*
-What we want is something like this:
-
-$dur: 0;
-
-span:nth-child($i) {
-  animation-delay: ($dur += 500)ms
-}
-
-
-*/
-
-
-/* @media screen and (min-width: 768px){
-  .bl-gif {
-    width: 35em;
-  }
-} */
 
 
 

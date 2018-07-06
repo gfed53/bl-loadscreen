@@ -1,3 +1,13 @@
+/* GIF */
+.bl-gif {
+  width: 95%;
+  height: auto;
+  z-index: 99;
+  border-radius: 4px; }
+
+@media screen and (min-width: 600px) {
+  .bl-gif {
+    width: auto; } }
 /* KEYFRAMES */
 @keyframes zoom {
   0% {
@@ -20,17 +30,6 @@ body {
   justify-content: center;
   align-items: center; }
 
-/* GIF */
-.bl-gif {
-  /* min-width: 20em;
-  max-width: 35em; */
-  width: 25em;
-  height: auto;
-  /* min-height: 5em;
-  max-height: 30em; */
-  z-index: 99;
-  border-radius: 4px; }
-
 h1 {
   position: relative;
   padding-top: 0.5em;
@@ -41,22 +40,5 @@ h1 {
     position: relative;
     display: inline-block;
     animation: zoom 1.25s infinite; }
-
-/*
-What we want is something like this:
-
-$dur: 0;
-
-span:nth-child($i) {
-  animation-delay: ($dur += 500)ms
-}
-
-
-*/
-/* @media screen and (min-width: 768px){
-  .bl-gif {
-    width: 35em;
-  }
-} */
 
 /*# sourceMappingURL=main.css.map */
